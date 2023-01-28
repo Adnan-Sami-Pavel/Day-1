@@ -15,9 +15,9 @@ const countryName = (name) => {
   return `
     <div class="country">
         <img src="${name.flags.png}" >
-        <h2>${name.name.common}</h2>
-        <h3>${name.capital}</h3>
-        <h3>${name.continents}</h3>
+        <h2>Name: ${name.name.common}</h2>
+        <h3>Capital: ${name.capital}</h3>
+        <h3>Continents: ${name.continents}</h3>
     </div>
     `;
 };
