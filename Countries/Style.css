@@ -1,0 +1,7 @@
+.country {
+    color: red;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: blue;
+    margin-bottom: 10px;
+}
